@@ -5,7 +5,7 @@
 # http://www.infrabricks.de/blog/2014/12/19/docker-microservice-basis-mit-apache-tomcat-implementieren/
 ############################################################
 
-FROM 21plus2/docker-server-jre:8-u77-b03
+FROM 21plus2/server-jre:8-u77-b03
 MAINTAINER 21plus2
 
 ############################################################
