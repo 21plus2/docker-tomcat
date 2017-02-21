@@ -12,8 +12,8 @@ MAINTAINER 21plus2
 # Configure Java Version
 ############################################################
 
-ENV TOMCAT_MINOR_VERSION 8.0.41 \
-    CATALINA_HOME /opt/tomcat
+ENV TOMCAT_MINOR_VERSION=8.0.41 \
+    CATALINA_HOME=/opt/tomcat
 
 ############################################################
 # Download, verify and extract Tomcat
