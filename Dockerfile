@@ -21,7 +21,6 @@ ENV TOMCAT_MINOR_VERSION=8.0.41 \
 
 RUN curl -O http://archive.apache.org/dist/tomcat/tomcat-8/v${TOMCAT_MINOR_VERSION}/bin/apache-tomcat-${TOMCAT_MINOR_VERSION}.tar.gz \
    && curl http://archive.apache.org/dist/tomcat/tomcat-8/v${TOMCAT_MINOR_VERSION}/bin/apache-tomcat-${TOMCAT_MINOR_VERSION}.tar.gz.md5 \
-   && md5sum -c apache-tomcat-${TOMCAT_MINOR_VERSION}.tar.gz.md5 apache-tomcat-${TOMCAT_MINOR_VERSION}.tar.gz \
    && gunzip apache-tomcat-*.tar.gz \
    && tar xf apache-tomcat-*.tar \
    && rm apache-tomcat-*.tar \
